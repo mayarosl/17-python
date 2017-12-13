@@ -20,7 +20,7 @@ for line in sys.stdin.readlines():
 	# if there are not 10 cells, skip the line
 	if len(row) != 10:
 		continue
-	# the form is the value of the 2nd cell (+make chat-s small)
+	# the form is the value of the 2nd cell (+ make char-s small)
 	form = row[1]
 	form = form.lower()
 	# the tag is the value of the 4th cell

@@ -25,9 +25,10 @@ for line in sys.stdin.readlines():
 		continue
 	# the form is the value of the 2nd cell (+make chat-s small)
 	form = row[1]
-	form = form.lower()
 	# the tag is the value of the 4th cell
 	tag = row[3]
+	if tag == '-':
+		continue
 
 	# matrix 'wt' to count the frequency of a word=tag pairs
 	if form not in wt:
@@ -52,9 +53,9 @@ for line in sys.stdin.readlines():
 # ---------for the final output-----------------
 
 for tag in tagsfreq:
-	print ('%.2f'%(tagsfreq[tag]/counter), tagsfreq[tag], tag, '-', sep = '\t')
+	print ('%.3f'%(tagsfreq[tag]/counter), tagsfreq[tag], tag, '-', sep = '\t')
 
 for frm in wt:
 	for tg in wt[frm]:
-		print ('%.2f'% (wt[frm][tg]/formfreq[frm]), wt[frm][tg], tg, frm, sep = '\t') 
+		print ('%.3f'% (wt[frm][tg]/formfreq[frm]), wt[frm][tg], tg, frm, sep = '\t') 
 

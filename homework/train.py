@@ -1,3 +1,6 @@
+# file for input: annotated.txt 
+
+
 import sys
 # head for table
 print ('#P', 'count', 'tag', 'form', sep = '\t')

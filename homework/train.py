@@ -1,4 +1,4 @@
-# file for input: annotated.txt 
+# file for input: annot.txt 
 
 
 import sys

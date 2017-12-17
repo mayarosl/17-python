@@ -66,4 +66,5 @@ for sent in sents:
 		n = n+1
 	#increase counter for sentence
 	index = index+1
+	sys.stdout.write ('\n')
 	

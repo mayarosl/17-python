@@ -1,0 +1,500 @@
+# text_id = 1
+# text = Oyun ve eğlence.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Oyun	-	NOUN	-	-	-	-	-	translit=Ойун
+2	ve	-	CCONJ	-	-	-	-	-	translit=вэ
+3	eğlence	-	NOUN	-	-	-	-	-	translit=эйлэнджэ
+4	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 2
+# text = Ticari PC Oyunları üreten firmaların pek çoğu son yıllara gelinceye kadar Linux sistemlere uygun oyunlar üretmemişlerdir.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Ticari	-	ADJ	-	-	-	-	-	translit=Тиджари
+2	PC	-	NOUN	-	-	-	-	-	translit=ПДж
+3	Oyunları	-	NOUN	-	-	-	-	-	translit=Ойунлары
+4	üreten	-	NOUN	-	-	-	-	-	translit=юрэтэн
+5	firmaların	-	NOUN	-	-	-	-	-	translit=фирмаларын
+6	pek	-	ADV	-	-	-	-	-	translit=пэк
+7	çoğu	-	NOUN	-	-	-	-	-	translit=чойу
+8	son	-	ADJ	-	-	-	-	-	translit=сон
+9	yıllara	-	NOUN	-	-	-	-	-	translit=йыллара
+10	gelinceye	-	VERB	-	-	-	-	-	translit=гэлинджэйэ
+11	kadar	-	ADP	-	-	-	-	-	translit=кадар
+12	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+13	sistemlere	-	NOUN	-	-	-	-	-	translit=систэмлэрэ
+14	uygun	-	ADJ	-	-	-	-	-	translit=уйгун
+15	oyunlar	-	NOUN	-	-	-	-	-	translit=ойунлар
+16	üretmemişlerdir	-	VERB	-	-	-	-	-	translit=юрэтмэмишлэрдир
+17	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 3
+# text = Bu nedenle Linux sistemlerdeki oyun imkanları oldukça sınırlı kalmıştır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Bu	-	PRON	-	-	-	-	-	translit=Бу
+2	nedenle	-	ADV	-	-	-	-	-	translit=нэдэнлэ
+3	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+4	sistemlerdeki	-	NOUN	-	-	-	-	-	translit=систэмлэрдэки
+5	oyun	-	NOUN	-	-	-	-	-	translit=ойун
+6	imkanları	-	NOUN	-	-	-	-	-	translit=имканлары
+7	oldukça	-	VERB	-	-	-	-	-	translit=олдукча
+8	sınırlı	-	ADJ	-	-	-	-	-	translit=сынырлы
+9	kalmıştır	-	VERB	-	-	-	-	-	translit=калмыштыр
+10	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 4
+# text = Oyun yazılımlarının kullandığı DirectX kütüphanesi Linux sistemlerde çalışmamaktadır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Oyun	-	NOUN	-	-	-	-	-	translit=Ойун
+2	yazılımlarının	-	NOUN	-	-	-	-	-	translit=йазылымларынын
+3	kullandığı	-	NOUN	-	-	-	-	-	translit=кулландыйы
+4	DirectX	-	PROPN	-	-	-	-	-	translit=ДирэджтКс
+5	kütüphanesi	-	NOUN	-	-	-	-	-	translit=кютюпханэси
+6	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+7	sistemlerde	-	NOUN	-	-	-	-	-	translit=систэмлэрдэ
+8	çalışmamaktadır	-	VERB	-	-	-	-	-	translit=чалышмамактадыр
+9	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 5
+# text = Linux ile çalışan OpenGL kütüphanesi ise üreticiler tarafından tercih edilmemiştir.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+2	ile	-	ADP	-	-	-	-	-	translit=илэ
+3	çalışan	-	NOUN	-	-	-	-	-	translit=чалышан
+4	OpenGL	-	PROPN	-	-	-	-	-	translit=ОпэнГЛ
+5	kütüphanesi	-	NOUN	-	-	-	-	-	translit=кютюпханэси
+6	ise	-	ADV	-	-	-	-	-	translit=исэ
+7	üreticiler	-	NOUN	-	-	-	-	-	translit=юрэтиджилэр
+8	tarafından	-	NOUN	-	-	-	-	-	translit=тарафындан
+9	tercih	-	NOUN	-	-	-	-	-	translit=тэрджих
+10	edilmemiştir	-	VERB	-	-	-	-	-	translit=эдилмэмиштир
+11	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 6
+# text = Ancak 2012 yılında Steam oyun platformunun Linux İstemcisi sunmasıyla birlikte bazı popüler oyunların Linux sürümleri üretilmeye başlanmıştır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Ancak	-	ADV	-	-	-	-	-	translit=Анджак
+2	2012	-	NUM	-	-	-	-	-	translit=2012
+3	yılında	-	NOUN	-	-	-	-	-	translit=йылында
+4	Steam	-	PROPN	-	-	-	-	-	translit=Стэам
+5	oyun	-	NOUN	-	-	-	-	-	translit=ойун
+6	platformunun	-	NOUN	-	-	-	-	-	translit=платформунун
+7	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+8	İstemcisi	-	NOUN	-	-	-	-	-	translit=Истэмджиси
+9	sunmasıyla	-	NOUN	-	-	-	-	-	translit=сунмасыйла
+10	birlikte	-	ADV	-	-	-	-	-	translit=бирликтэ
+11	bazı	-	ADJ	-	-	-	-	-	translit=базы
+12	popüler	-	ADJ	-	-	-	-	-	translit=попюлэр
+13	oyunların	-	NOUN	-	-	-	-	-	translit=ойунларын
+14	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+15	sürümleri	-	NOUN	-	-	-	-	-	translit=сюрюмлэри
+16	üretilmeye	-	NOUN	-	-	-	-	-	translit=юрэтилмэйэ
+17	başlanmıştır	-	VERB	-	-	-	-	-	translit=башланмыштыр
+18	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 7
+# text = Ayrıca Android işletim sistemine ait uygulama mağazasında da geniş bir oyun seçeneği bulunmaktadır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Ayrıca	-	ADV	-	-	-	-	-	translit=Айрыджа
+2	Android	-	PROPN	-	-	-	-	-	translit=Андроид
+3	işletim	-	NOUN	-	-	-	-	-	translit=ишлэтим
+4	sistemine	-	NOUN	-	-	-	-	-	translit=систэминэ
+5	ait	-	ADJ	-	-	-	-	-	translit=аит
+6	uygulama	-	NOUN	-	-	-	-	-	translit=уйгулама
+7	mağazasında	-	NOUN	-	-	-	-	-	translit=майазасында
+8	da	-	CCONJ	-	-	-	-	-	translit=да
+9	geniş	-	ADJ	-	-	-	-	-	translit=гэниш
+10	bir	-	DET	-	-	-	-	-	translit=бир
+11	oyun	-	NOUN	-	-	-	-	-	translit=ойун
+12	seçeneği	-	NOUN	-	-	-	-	-	translit=сэчэнэйи
+13	bulunmaktadır	-	VERB	-	-	-	-	-	translit=булунмактадыр
+14	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 8
+# text = Toyota, Nissan, Jaguar, Land Rover, Ford, Mazda, Mitsubishi, Subaru gibi büyük otomobil üreticileri araçlarının dijital sistemlerinde uzun zamandır Linux kullanmaktadır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Toyota	-	PROPN	-	-	-	-	-	translit=Тойота
+2	,	-	PUNCT	-	-	-	-	-	translit=,
+3	Nissan	-	PROPN	-	-	-	-	-	translit=Ниссан
+4	,	-	PUNCT	-	-	-	-	-	translit=,
+5	Jaguar	-	PROPN	-	-	-	-	-	translit=Жагуар
+6	,	-	PUNCT	-	-	-	-	-	translit=,
+7	Land	-	PROPN	-	-	-	-	-	translit=Ланд
+8	Rover	-	PROPN	-	-	-	-	-	translit=Ровэр
+9	,	-	PUNCT	-	-	-	-	-	translit=,
+10	Ford	-	PROPN	-	-	-	-	-	translit=Форд
+11	,	-	PUNCT	-	-	-	-	-	translit=,
+12	Mazda	-	PROPN	-	-	-	-	-	translit=Мазда
+13	,	-	PUNCT	-	-	-	-	-	translit=,
+14	Mitsubishi	PROPN	-	-	-	-	-	-	translit=Митсубисхи
+15	,	-	PUNCT	-	-	-	-	-	translit=,
+16	Subaru	-	PROPN	-	-	-	-	-	translit=Субару
+17	gibi	-	SCONJ	-	-	-	-	-	translit=гиби
+18	büyük	-	ADJ	-	-	-	-	-	translit=бюйюк
+19	otomobil	-	NOUN	-	-	-	-	-	translit=отомобил
+20	üreticileri	-	NOUN	-	-	-	-	-	translit=юрэтиджилэри
+21	araçlarının	-	NOUN	-	-	-	-	-	translit=арачларынын
+22	dijital	-	ADJ	-	-	-	-	-	translit=дижитал
+23	sistemlerinde	-	NOUN	-	-	-	-	-	translit=систэмлэриндэ
+24	uzun	-	ADJ	-	-	-	-	-	translit=узун
+25	zamandır	-	NOUN	-	-	-	-	-	translit=замандыр
+26	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+27	kullanmaktadır	-	VERB	-	-	-	-	-	translit=кулланмактадыр
+28	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 9
+# text = Automotive Grade Linux projesi ise Linux Vakfı tarafından akıllı otomobiller üretilmesi için yürütülmektedir, büyük teknoloji ve otomotiv üreticileri projeye üye olmuşlardır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Automotive	-	PROPN	-	-	-	-	-	translit=Аутомотивэ
+2	Grade	-	PROPN	-	-	-	-	-	translit=Градэ
+3	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+4	projesi	-	NOUN	-	-	-	-	-	translit=прожэси
+5	ise	-	ADV	-	-	-	-	-	translit=исэ
+6	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+7	Vakfı	-	NOUN	-	-	-	-	-	translit=Вакфы
+8	tarafından	-	NOUN	-	-	-	-	-	translit=тарафындан
+9	akıllı	-	ADJ	-	-	-	-	-	translit=акыллы
+10	otomobiller	-	NOUN	-	-	-	-	-	translit=отомобиллэр
+11	üretilmesi	-	NOUN	-	-	-	-	-	translit=юрэтилмэси
+12	için	-	ADP	-	-	-	-	-	translit=ичин
+13	yürütülmektedir	-	VERB	-	-	-	-	-	translit=йюрютюлмэктэдир
+14	,	-	PUNCT	-	-	-	-	-	translit=,
+15	büyük	-	ADJ	-	-	-	-	-	translit=бюйюк
+16	teknoloji	-	NOUN	-	-	-	-	-	translit=тэкноложи
+17	ve	-	CCONJ	-	-	-	-	-	translit=вэ
+18	otomotiv	-	ADJ	-	-	-	-	-	translit=отомотив
+19	üreticileri	-	NOUN	-	-	-	-	-	translit=юрэтиджилэри
+20	projeye	-	NOUN	-	-	-	-	-	translit=прожэйэ
+21	üye	-	NOUN	-	-	-	-	-	translit=юйэ
+22	olmuşlardır	-	VERB	-	-	-	-	-	translit=олмушлардыр
+23	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 10
+# text = Linux Vakfı'na üye kuruluşlar şunlardır; Telif hakkı ve isimlendirme.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+2	Vakfı'na	-	NOUN	-	-	-	-	-	translit=Вакфы'на
+3	üye	-	NOUN	-	-	-	-	-	translit=юйэ
+4	kuruluşlar	-	NOUN	-	-	-	-	-	translit=курулушлар
+5	şunlardır	-	PRON	-	-	-	-	-	translit=шунлардыр
+6	;	-	PUNCT	-	-	-	-	-	translit=;
+7	Telif	-	PROPN	-	-	-	-	-	translit=Тэлиф
+8	hakkı	-	NOUN	-	-	-	-	-	translit=хаккы
+9	ve	-	CCONJ	-	-	-	-	-	translit=вэ
+10	isimlendirme	-	VERB	-	-	-	-	-	translit=исимлэндирмэ
+11	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 11
+# text = Linux ve çoğu GNU yazılımı GPL (Genel Kamu Lisansı) altında lisanslıdır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+2	ve	-	CCONJ	-	-	-	-	-	translit=вэ
+3	çoğu	-	NOUN	-	-	-	-	-	translit=чойу
+4	GNU	-	PROPN	-	-	-	-	-	translit=ГНУ
+5	yazılımı	-	NOUN	-	-	-	-	-	translit=йазылымы
+6	GPL	-	PROPN	-	-	-	-	-	translit=ГПЛ
+7	(	-	PUNCT	-	-	-	-	-	translit=
+8	Genel	-	ADJ	-	-	-	-	-	translit=(Гэнэл
+9	Kamu	-	ADJ	-	-	-	-	-	translit=Каму
+10	Lisansı	-	NOUN	-	-	-	-	-	translit=Лисансы
+11	)	-	PUNCT	-	-	-	-	-	translit=)
+12	altında	-	NOUN	-	-	-	-	-	translit=алтында
+13	lisanslıdır	-	ADJ	-	-	-	-	-	translit=лисанслыдыр
+14	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 12
+# text = GPL, Linux dağıtıcılarına kaynak kodu (ya da herhangi bir değişikliği) alıcılar için aynı şartlar altında kullanılabilir hale getirmesini gerektirir.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	GPL	-	PROPN	-	-	-	-	-	translit=ГПЛ
+2	,	-	PUNCT	-	-	-	-	-	translit=,
+3	Linux	-	PROPN	-	-	-	-	-	translit=Линукс
+4	dağıtıcılarına	-	NOUN	-	-	-	-	-	translit=дайытыджыларына
+5	kaynak	-	NOUN	-	-	-	-	-	translit=кайнак
+6	kodu	-	NOUN	-	-	-	-	-	translit=коду
+7	(	-	PUNCT	-	-	-	-	-	translit=(
+8	ya	-	ADV	-	-	-	-	-	translit=йа
+9	da	-	ADV	-	-	-	-	-	translit=да
+10	herhangi	-	ADJ	-	-	-	-	-	translit=хэрханги
+11	bir	-	DET	-	-	-	-	-	translit=бир
+12	değişikliği	-	NOUN	-	-	-	-	-	translit=дэйишиклийи
+13	)	-	PUNCT	-	-	-	-	-	translit=)
+14	alıcılar	-	NOUN	-	-	-	-	-	translit=алыджылар
+15	için	-	ADP	-	-	-	-	-	translit=ичин
+16	aynı	-	ADJ	-	-	-	-	-	translit=айны
+17	şartlar	-	NOUN	-	-	-	-	-	translit=шартлар
+18	altında	-	NOUN	-	-	-	-	-	translit=алтында
+19	kullanılabilir	-	VERB	-	-	-	-	-	translit=кулланылабилир
+20	hale	-	NOUN	-	-	-	-	-	translit=халэ
+21	getirmesini	-	NOUN	-	-	-	-	-	translit=гэтирмэсини
+22	gerektirir	-	VERB	-	-	-	-	-	translit=гэрэктирир
+23	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 13
+# text = Yazılım sisteminin diğer anahtar bileşenleri başka lisanslar kullanabilir.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Yazılım	-	NOUN	-	-	-	-	-	translit=Йазылым
+2	sisteminin	-	NOUN	-	-	-	-	-	translit=систэминин
+3	diğer	-	ADJ	-	-	-	-	-	translit=дийэр
+4	anahtar	-	NOUN	-	-	-	-	-	translit=анахтар
+5	bileşenleri	-	NOUN	-	-	-	-	-	translit=билэшэнлэри
+6	başka	-	ADJ	-	-	-	-	-	translit=башка
+7	lisanslar	-	NOUN	-	-	-	-	-	translit=лисанслар
+8	kullanabilir	-	VERB	-	-	-	-	-	translit=кулланабилир
+9	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 14
+# text = Örneğin birçok kütüphane GNU, LGPL'yi ve GPL'nin birçok serbest versiyonunu kullanır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Örneğin	-	NOUN	-	-	-	-	-	translit=Ёрнэйин
+2	birçok	-	ADJ	-	-	-	-	-	translit=бирчок
+3	kütüphane	-	NOUN	-	-	-	-	-	translit=кютюпханэ
+4	GNU	-	PROPN	-	-	-	-	-	translit=ГНУ
+5	,	-	PUNCT	-	-	-	-	-	translit=,
+6	LGPL'yi	-	PROPN	-	-	-	-	-	translit=ЛГПЛ'йи
+7	ve	-	CCONJ	-	-	-	-	-	translit=вэ
+8	GPL'nin	-	PROPN	-	-	-	-	-	translit=ГПЛ'нин
+9	birçok	-	ADJ	-	-	-	-	-	translit=бирчок
+10	serbest	-	ADJ	-	-	-	-	-	translit=сэрбэст
+11	versiyonunu	-	NOUN	-	-	-	-	-	translit=вэрсийонуну
+12	kullanır	-	VERB	-	-	-	-	-	translit=кулланыр
+13	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 15
+# text = Ek olarak X Pencere sistemini X.org uygulamaları MIT Lisansı'nı kullanır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Ek	-	NOUN	-	-	-	-	-	translit=Эк
+2	olarak	-	VERB	-	-	-	-	-	translit=оларак
+3	X	-	SYM	-	-	-	-	-	translit=Кс
+4	Pencere	-	NOUN	-	-	-	-	-	translit=Пэнджэрэ
+5	sistemini	-	NOUN	-	-	-	-	-	translit=систэмини
+6	X	-	SYM	-	-	-	-	-	translit=Кс
+7	.org	-	X	-	-	-	-	-	translit=.орг
+8	uygulamaları	-	NOUN	-	-	-	-	-	translit=уйгуламалары
+9	MIT	-	PROPN	-	-	-	-	-	translit=МЫТ
+10	Lisansı'nı	-	NOUN	-	-	-	-	-	translit=Лисансы'ны
+11	kullanır	-	VERB	-	-	-	-	-	translit=кулланыр
+12	.	-	PUNCT	-	-	-	-	-	translit=.
+
+
+# text_id = 16
+# text = Torvalds, Linux çekirdeğinin Genel Kamu Lisansı'nın 2.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Torvalds	-	-	-	-	-	-	-	translit=Торвалдс
+2	,	-	-	-	-	-	-	-	translit=,
+3	Linux	-	-	-	-	-	-	-	translit=Линукс
+4	çekirdeğinin	-	-	-	-	-	-	-	translit=чэкирдэйинин
+5	Genel	-	-	-	-	-	-	-	translit=Гэнэл
+6	Kamu	-	-	-	-	-	-	-	translit=Каму
+7	Lisansı'nın	-	-	-	-	-	-	-	translit=Лисансы'нын
+8	2	-	-	-	-	-	-	-	translit=2
+9	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 17
+# text = Torvalds özellikle yeni lisansta yer alan ve dijital haklar yönetiminde yazılım kullanımını yasaklayan bazı hükümleri sevmemektedir ve aynı zamanda sayısı binleri bulan bütün telif hakkı sahiplerinden izin almak kullanışsız olacaktır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Torvalds	-	-	-	-	-	-	-	translit=Торвалдс
+2	özellikle	-	-	-	-	-	-	-	translit=ёзэлликлэ
+3	yeni	-	-	-	-	-	-	-	translit=йэни
+4	lisansta	-	-	-	-	-	-	-	translit=лисанста
+5	yer	-	-	-	-	-	-	-	translit=йэр
+6	alan	-	-	-	-	-	-	-	translit=алан
+7	ve	-	-	-	-	-	-	-	translit=вэ
+8	dijital	-	-	-	-	-	-	-	translit=дижитал
+9	haklar	-	-	-	-	-	-	-	translit=хаклар
+10	yönetiminde	-	-	-	-	-	-	-	translit=йёнэтиминдэ
+11	yazılım	-	-	-	-	-	-	-	translit=йазылым
+12	kullanımını	-	-	-	-	-	-	-	translit=кулланымыны
+13	yasaklayan	-	-	-	-	-	-	-	translit=йасаклайан
+14	bazı	-	-	-	-	-	-	-	translit=базы
+15	hükümleri	-	-	-	-	-	-	-	translit=хюкюмлэри
+16	sevmemektedir	-	-	-	-	-	-	-	translit=сэвмэмэктэдир
+17	ve	-	-	-	-	-	-	-	translit=вэ
+18	aynı	-	-	-	-	-	-	-	translit=айны
+19	zamanda	-	-	-	-	-	-	-	translit=заманда
+20	sayısı	-	-	-	-	-	-	-	translit=сайысы
+21	binleri	-	-	-	-	-	-	-	translit=бинлэри
+22	bulan	-	-	-	-	-	-	-	translit=булан
+23	bütün	-	-	-	-	-	-	-	translit=бютюн
+24	telif	-	-	-	-	-	-	-	translit=тэлиф
+25	hakkı	-	-	-	-	-	-	-	translit=хаккы
+26	sahiplerinden	-	-	-	-	-	-	-	translit=сахиплэриндэн
+27	izin	-	-	-	-	-	-	-	translit=изин
+28	almak	-	-	-	-	-	-	-	translit=алмак
+29	kullanışsız	-	-	-	-	-	-	-	translit=кулланышсыз
+30	olacaktır	-	-	-	-	-	-	-	translit=оладжактыр
+31	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 18
+# text = Bir kısım kitle tarafından “Linux” kelimesiyle ifade edilen çekirdek, bir kısım kitle tarafından da GNU Tasarısı yazılım ve araçlarını içermesi nedeniyle “GNU/Linux” diye ifade edilmekte, bu söz grubu ile adlandırılmaktadır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Bir	-	-	-	-	-	-	-	translit=Бир
+2	kısım	-	-	-	-	-	-	-	translit=кысым
+3	kitle	-	-	-	-	-	-	-	translit=китлэ
+4	tarafından	-	-	-	-	-	-	-	translit=тарафындан
+5	“Linux”	-	-	-	-	-	-	-	translit=“Линукс”
+6	kelimesiyle	-	-	-	-	-	-	-	translit=кэлимэсийлэ
+7	ifade	-	-	-	-	-	-	-	translit=ифадэ
+8	edilen	-	-	-	-	-	-	-	translit=эдилэн
+9	çekirdek	-	-	-	-	-	-	-	translit=чэкирдэк
+10	,	-	-	-	-	-	-	-	translit=,
+11	bir	-	-	-	-	-	-	-	translit=бир
+12	kısım	-	-	-	-	-	-	-	translit=кысым
+13	kitle	-	-	-	-	-	-	-	translit=китлэ
+14	tarafından	-	-	-	-	-	-	-	translit=тарафындан
+15	da	-	-	-	-	-	-	-	translit=да
+16	GNU	-	-	-	-	-	-	-	translit=ГНУ
+17	Tasarısı	-	-	-	-	-	-	-	translit=Тасарысы
+18	yazılım	-	-	-	-	-	-	-	translit=йазылым
+19	ve	-	-	-	-	-	-	-	translit=вэ
+20	araçlarını	-	-	-	-	-	-	-	translit=арачларыны
+21	içermesi	-	-	-	-	-	-	-	translit=ичэрмэси
+22	nedeniyle	-	-	-	-	-	-	-	translit=нэдэнийлэ
+23	“GNU/Linux”	-	-	-	-	-	-	-	translit=“ГНУ/Линукс”
+24	diye	-	-	-	-	-	-	-	translit=дийэ
+25	ifade	-	-	-	-	-	-	-	translit=ифадэ
+26	edilmekte	-	-	-	-	-	-	-	translit=эдилмэктэ
+27	,	-	-	-	-	-	-	-	translit=,
+28	bu	-	-	-	-	-	-	-	translit=бу
+29	söz	-	-	-	-	-	-	-	translit=сёз
+30	grubu	-	-	-	-	-	-	-	translit=грубу
+31	ile	-	-	-	-	-	-	-	translit=илэ
+32	adlandırılmaktadır	-	-	-	-	-	-	-	translit=адландырылмактадыр
+33	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 19
+# text = Adlandırma konusundaki tartışma uzun bir süredir devam etmektedir.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Adlandırma	-	-	-	-	-	-	-	translit=Адландырма
+2	konusundaki	-	-	-	-	-	-	-	translit=конусундаки
+3	tartışma	-	-	-	-	-	-	-	translit=тартышма
+4	uzun	-	-	-	-	-	-	-	translit=узун
+5	bir	-	-	-	-	-	-	-	translit=бир
+6	süredir	-	-	-	-	-	-	-	translit=сюрэдир
+7	devam	-	-	-	-	-	-	-	translit=дэвам
+8	etmektedir	-	-	-	-	-	-	-	translit=этмэктэдир
+9	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 20
+# text = Bolşevizm: Bolşevik, "çoğunluktan yana" anlamına gelen Rusça kelime, 1903 yılında düzenlenen Rusya Sosyal Demokrat İşçi Partisi'nin İkinci Kongresi'nde Vladimir Lenin ve Julius Martov arasında yeni kurulmakta olan partinin üyelik tanımı üzerine başlayan görüş ayrılığı sonucu yaşanan ayrışmadaki taraflardan Lenin yanlısı grup.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Bolşevizm	-	-	-	-	-	-	-	translit=Болшэвизм
+2	:	-	-	-	-	-	-	-	translit=:
+3	Bolşevik	-	-	-	-	-	-	-	translit=Болшэвик
+4	,	-	-	-	-	-	-	-	translit=,
+5	"çoğunluktan	-	-	-	-	-	-	-	translit="чойунлуктан
+6	yana"	-	-	-	-	-	-	-	translit=йана"
+7	anlamına	-	-	-	-	-	-	-	translit=анламына
+8	gelen	-	-	-	-	-	-	-	translit=гэлэн
+9	Rusça	-	-	-	-	-	-	-	translit=Русча
+10	kelime	-	-	-	-	-	-	-	translit=кэлимэ
+11	,	-	-	-	-	-	-	-	translit=,
+12	1903	-	-	-	-	-	-	-	translit=1903
+13	yılında	-	-	-	-	-	-	-	translit=йылында
+14	düzenlenen	-	-	-	-	-	-	-	translit=дюзэнлэнэн
+15	Rusya	-	-	-	-	-	-	-	translit=Русйа
+16	Sosyal	-	-	-	-	-	-	-	translit=Сосйал
+17	Demokrat	-	-	-	-	-	-	-	translit=Дэмократ
+18	İşçi	-	-	-	-	-	-	-	translit=Ишчи
+19	Partisi'nin	-	-	-	-	-	-	-	translit=Партиси'нин
+20	İkinci	-	-	-	-	-	-	-	translit=Икинджи
+21	Kongresi'nde	-	-	-	-	-	-	-	translit=Конгрэси'ндэ
+22	Vladimir	-	-	-	-	-	-	-	translit=Владимир
+23	Lenin	-	-	-	-	-	-	-	translit=Лэнин
+24	ve	-	-	-	-	-	-	-	translit=вэ
+25	Julius	-	-	-	-	-	-	-	translit=Жулиус
+26	Martov	-	-	-	-	-	-	-	translit=Мартов
+27	arasında	-	-	-	-	-	-	-	translit=арасында
+28	yeni	-	-	-	-	-	-	-	translit=йэни
+29	kurulmakta	-	-	-	-	-	-	-	translit=курулмакта
+30	olan	-	-	-	-	-	-	-	translit=олан
+31	partinin	-	-	-	-	-	-	-	translit=партинин
+32	üyelik	-	-	-	-	-	-	-	translit=юйэлик
+33	tanımı	-	-	-	-	-	-	-	translit=танымы
+34	üzerine	-	-	-	-	-	-	-	translit=юзэринэ
+35	başlayan	-	-	-	-	-	-	-	translit=башлайан
+36	görüş	-	-	-	-	-	-	-	translit=гёрюш
+37	ayrılığı	-	-	-	-	-	-	-	translit=айрылыйы
+38	sonucu	-	-	-	-	-	-	-	translit=сонуджу
+39	yaşanan	-	-	-	-	-	-	-	translit=йашанан
+40	ayrışmadaki	-	-	-	-	-	-	-	translit=айрышмадаки
+41	taraflardan	-	-	-	-	-	-	-	translit=тарафлардан
+42	Lenin	-	-	-	-	-	-	-	translit=Лэнин
+43	yanlısı	-	-	-	-	-	-	-	translit=йанлысы
+44	grup	-	-	-	-	-	-	-	translit=груп
+45	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 28
+# text = Kongrede Lenin yanlıları çoğunlukta olduğu için Rusça çoğunluk anlamına gelen "Bolşevik" olarak, azınlıktaki Martov yanlıları da "Menşevik" olarak adlandırılacaktır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Kongrede	-	-	-	-	-	-	-	translit=Конгрэдэ
+2	Lenin	-	-	-	-	-	-	-	translit=Лэнин
+3	yanlıları	-	-	-	-	-	-	-	translit=йанлылары
+4	çoğunlukta	-	-	-	-	-	-	-	translit=чойунлукта
+5	olduğu	-	-	-	-	-	-	-	translit=олдуйу
+6	için	-	-	-	-	-	-	-	translit=ичин
+7	Rusça	-	-	-	-	-	-	-	translit=Русча
+8	çoğunluk	-	-	-	-	-	-	-	translit=чойунлук
+9	anlamına	-	-	-	-	-	-	-	translit=анламына
+10	gelen	-	-	-	-	-	-	-	translit=гэлэн
+11	"Bolşevik"	-	-	-	-	-	-	-	translit="Болшэвик"
+12	olarak	-	-	-	-	-	-	-	translit=оларак
+13	,	-	-	-	-	-	-	-	translit=,
+14	azınlıktaki	-	-	-	-	-	-	-	translit=азынлыктаки
+15	Martov	-	-	-	-	-	-	-	translit=Мартов
+16	yanlıları	-	-	-	-	-	-	-	translit=йанлылары
+17	da	-	-	-	-	-	-	-	translit=да
+18	"Menşevik"	-	-	-	-	-	-	-	translit="Мэншэвик"
+19	olarak	-	-	-	-	-	-	-	translit=оларак
+20	adlandırılacaktır	-	-	-	-	-	-	-	translit=адландырыладжактыр
+21	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 29
+# text = Kongreden sonra iki taraf arasında birleşme girişimleri olsa da birleşme gerçekleşmeyecek ve 1912 yılında kesin ayrım yaşanacaktır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Kongreden	-	-	-	-	-	-	-	translit=Конгрэдэн
+2	sonra	-	-	-	-	-	-	-	translit=сонра
+3	iki	-	-	-	-	-	-	-	translit=ики
+4	taraf	-	-	-	-	-	-	-	translit=тараф
+5	arasında	-	-	-	-	-	-	-	translit=арасында
+6	birleşme	-	-	-	-	-	-	-	translit=бирлэшмэ
+7	girişimleri	-	-	-	-	-	-	-	translit=гиришимлэри
+8	olsa	-	-	-	-	-	-	-	translit=олса
+9	da	-	-	-	-	-	-	-	translit=да
+10	birleşme	-	-	-	-	-	-	-	translit=бирлэшмэ
+11	gerçekleşmeyecek	-	-	-	-	-	-	-	translit=гэрчэклэшмэйэджэк
+12	ve	-	-	-	-	-	-	-	translit=вэ
+13	1912	-	-	-	-	-	-	-	translit=1912
+14	yılında	-	-	-	-	-	-	-	translit=йылында
+15	kesin	-	-	-	-	-	-	-	translit=кэсин
+16	ayrım	-	-	-	-	-	-	-	translit=айрым
+17	yaşanacaktır	-	-	-	-	-	-	-	translit=йашанаджактыр
+18	.	-	-	-	-	-	-	-	translit=.
+
+
+# text_id = 30
+# text = Bolşevikler Ekim Devrimi ile iktidarı alacaklar ve Sovyetler Birliği'ni kuracaklardır.
+# ID	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Bolşevikler	-	-	-	-	-	-	-	translit=Болшэвиклэр
+2	Ekim	-	-	-	-	-	-	-	translit=Эким
+3	Devrimi	-	-	-	-	-	-	-	translit=Дэврими
+4	ile	-	-	-	-	-	-	-	translit=илэ
+5	iktidarı	-	-	-	-	-	-	-	translit=иктидары

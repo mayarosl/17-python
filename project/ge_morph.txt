@@ -1,12 +1,20 @@
 # nouns decl.
-ი	NOM
+ი NOM
 მა	ERG
 ს	DAT
 ის	GEN
 ით	INST
 ად	ADV
 ო	VOC
-#verbs
+#adpositions
+ვით       like    =vit
+ზე      on      =ze
+ში      in      =shi
+დან     from    =dan
+თან     at      =tan
+თვის    for     =tvis
+მდე     up to   =mde
+#verbs flect.
 ებ	PRS
 ებს	PRS
 ებთ	PRS

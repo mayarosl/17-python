@@ -14,9 +14,10 @@ Georgian is well known for its complex morphology, but not much is known about i
 The program is aimed to take a text in Georgian language from input, split words into morphems and transfer it into IPA symbols. We are going to transcribe phonemically. The output will represent not actual sounds, but abstract mental constructs, i.e. the categories of sound that speakers understand to be ‘sounds of their language’. 
 
 #### PROJECT DESCRIPTION
-The project consists of a transliteration table, a table of morphems and a script itself.
+The project documentation consists of a transliteration table, a table of morphems and a script itself.
 
-***First step*** is a table of Georgian → IPA symbols mapping. The file consists of two columns separated by a tab `\t` character.
+
+***First part*** is a table of Georgian → IPA symbols mapping. The file consists of two columns separated by a tab `\t` character.
 The table looks simplistic due to several points. First, modern Georgian alphabet is caseless. Second, there is a one-to-one correspondence between the alphabetic symbols and phonemic sounds. 
 
 The table looks like:
@@ -28,19 +29,17 @@ The table looks like:
 ```
 ... and it is stored in `ge_table.txt`.
 
-***Second step*** is a table of Georgian morphems. Like in the first step, it is a text file with two columns separated by a tab `\t`. Only first column is needed for script, second one is just for comments:
+***Second part*** is a table of Georgian morphems. Like in the first part, it is a text file with two columns separated by a tab `\t`. Only first column is needed for script, second one is just glossing comments:
 ```txt
 	ი	NOM
 	მა	ERG
 	ს	DAT
 
 ```
-The table is stored in `ge_morph.txt`
+The table is stored in `ge_morph.txt`. Georgian has seven cases, adjectives and pronouns can also be inflected in these cases. Phonetically there are three forms of declension. Within first one, neither case marker nor stem affects each other. The script is supposed to work properly with this type. In the other two types, either sase marker that starts with a vowel affects a stem or
+stem's last vowel affects case marker. The script does not take into account these types.
 
-PROMLEM: I don't know GE and don't have time to check all motphems.
-
-
-***Third step*** is a code itself. Python reads the `ge_table.txt` and form the dictionary of Georgian → IPA symbols mapping.
+***Third part*** is a code itself. Python reads the `ge_table.txt` and form the dictionary of Georgian → IPA symbols mapping.
 ```python
 import sys
 table = {}
@@ -57,7 +56,7 @@ for line in symbols:
 	if ge not in table:
 		table [ge] = ipa
 ```
-Next, Python makes lists according to the number of symbols in morphems (from `ge_morph.txt`):
+Next, Python makes different lists according to the number of symbols in morphems (from `ge_morph.txt`):
 ```python
 a = open (sys.argv[2])
 ms = a.readlines()
@@ -80,7 +79,7 @@ for line in ms:
 		three.append (ending)
 ```
 
-The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and checks if the final part of a word is in morphem lists. It the requested slice is in our lists, Python separates it from (let's call it) 'stem' with `'-'` symbol.
+The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and checks if the final part of a word is in morphem lists. If the requested slice is in our lists, Python separates it from (let's call it) 'stem' with `'-'` symbol. 
 
 Then, in every word Python checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
 ```python
@@ -121,13 +120,13 @@ IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i
 
 :-1: Due to the flexible stress in Georgian, forms in IPA are not marked with stress.
 
-:-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. At least latin and cyrillic symbols should be added to the table with mappings.
+:-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. As a possible script improvement, latin and cyrillic symbols should be added to the table with mappings.
 
-:-1: в тексте не видно, что есть сущ, я не знаю грамматику так хорошо, может есть совпадения с другими чр
+:-1: The script does not take into account prefixes, and the solution requires time. For example, Georgian language is well-known for a complex verb morphology. Verb prefixes may coincide with initial symbols of non-verbs. In the project as it is given now, there is no way to understand the word's part of speech and split it correctly. In order to teach the script how to work with verbs, a model text with part-of-speach tagging has to be prepared. Ideal split script should: 
 
-лучше будет работать, если применить в токенизированному тексту и задать параметр NOUN
-
-то есть как я могу улучшить проект: аннотировать кусок текста, применять разные таблицы окончаний к разным частям речи
+* chech if the word in text (or its parts) coincides with the word (or parts) in model text, 
+* predict its morphological category,
+* refer for the list of morphem for exact category.
 
 
 ***** 

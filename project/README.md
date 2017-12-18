@@ -20,7 +20,7 @@ The project consists of a transliteration table, a table of morphems and a scrip
 The table looks simplistic due to several points. First, modern Georgian alphabet is caseless. Second, there is a one-to-one correspondence between the alphabetic symbols and phonemic sounds. 
 
 The table looks like:
-```python 
+```txt
 	ა	ɑ
 	ბ	b
 	გ	g
@@ -29,14 +29,15 @@ The table looks like:
 ... and it is stored in `ge_table.txt`.
 
 ***Second step*** is a table of Georgian morphems. Like in the first step, it is a text file with two columns separated by a tab `\t`. Only first column is needed for script, second one is just for comments:
-```python
+```txt
 	ი	NOM
 	მა	ERG
 	ს	DAT
 
 ```
-The table is stor
-PROMLEM: I don't know GE and don't have time to check all of them.
+The table is stored in `ge_morph.txt`
+
+PROMLEM: I don't know GE and don't have time to check all motphems.
 
 
 ***Third step*** is a code itself. Python reads the `ge_table.txt` and form the dictionary of Georgian → IPA symbols mapping.
@@ -56,6 +57,13 @@ for line in symbols:
 	if ge not in table:
 		table [ge] = ipa
 ```
+Next, Python makes lists of 
+
+```python
+
+ADDCODEHERE
+```
+
 The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and in every word checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
 ```python
 ge_text = sys.stdin.read()
@@ -81,7 +89,7 @@ for line in ge_text:
 ```
 To test the script, I have prepared file `ge_wiki.txt`. It is used as an input like this:
 ```
-$ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt
+$ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt ge_morph.txt
 ```
 The output of the script looks like:
 ```html

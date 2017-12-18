@@ -8,6 +8,8 @@ Georgian is one of Kartvelian languages, a language family indigenous to the Cau
 
 <img src="https://4.downloader.disk.yandex.ru/disk/6467c97a6b749664959339b0a0a6632d48065f0204a07d7637539f3903943ac3/5a374936/U6tpeiIpRI7Zg034NSXqvuNGfnz4gBt5eCAKJfI7Q-qtSIVeZQS3Pv1UQGnKgfrV4Pc0LLXKKwIGU3AtkNQJAQ%3D%3D?uid=0&filename=2017-12-18_03-49-27.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&fsize=42097&hid=7b61ce6b64dc38e9d1d3c5bf0f6d9ad3&media_type=image&tknv=v2&etag=a150d6374993e593b80713768f840357" width="600">
 
+#### PURPOSE
+The program is aimed to take a text in Georgian language from input and transfer it into IPA symbols. We are going to transcribe phonemically. The output will represent not actual sounds, but abstract mental constructs, i.e. the categories of sound that speakers understand to be ‘sounds of their language’. 
 
 #### PROJECT DESCRIPTION
 The project consists of a transliteration table and a script.
@@ -84,7 +86,9 @@ How good the convertor is?
 
 :-1: no stresses
 
+:-1: Due to lack of source, it's not reflecting how sounds effect each other, no positional variations.
+
 
 ***** 
 
-Shosted, R., & Chikovani, V. (2006). Standard Georgian. Journal of the International Phonetic Association, 36(2), 255-264. doi:10.1017/S0025100306002659
+Shosted, R., & Chikovani, V. (2006). Standard Georgian. Journal of the International Phonetic Association, 36(2), 255-264. doi:10.1017/S0025100306002659, [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7DCF9606BA856FCA5CC25918ADB37EF/S0025100306002659a.pdf/standard_georgian.pdf)

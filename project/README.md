@@ -27,12 +27,15 @@ The table looks like:
 	... 
 ```
 ... and it is stored in `ge_table.txt`.
+
 ***Second step*** is a table of Georgian morphems. Like in the first step, it is a text file with two columns separated by a tab `\t`. Only first column is needed for script, second one is just for comments:
 ```python
-hg
+	ი	NOM
+	მა	ERG
+	ს	DAT
 
 ```
-The table is stored in 
+The table is stor
 PROMLEM: I don't know GE and don't have time to check all of them.
 
 

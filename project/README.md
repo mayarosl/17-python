@@ -122,10 +122,10 @@ IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i
 
 :-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. As a possible script improvement, latin and cyrillic symbols should be added to the table with mappings.
 
-:-1: The script does not take into account prefixes, and the solution requires time. For example, Georgian language is well-known for a complex verb morphology. Verb prefixes may coincide with initial symbols of non-verbs. In the project as it is given now, there is no way to understand the word's part of speech and split it correctly. In order to teach the script how to work with verbs, a model text with part-of-speach tagging has to be prepared. Ideal split script should: 
+:-1: The script does not take into account prefixes, and the solution requires time. For example, Georgian language is well-known for a complex verb morphology. Verb prefixes may coincide with initial symbols of non-verbs. In the project as it is given now, there is no way to understand the word's morphological category, hence, no way to split other words correctly. In order to teach the script how to deal with verbs (and another categories of course), a model text with part-of-speach tagging has to be prepared. The ideal morphem-split script should: 
 
-* chech if the word in text (or its parts) coincides with the word (or parts) in model text, 
-* predict its morphological category,
+* chech if the word in text (or word's slices) coincides with the word in the model text, 
+* predict word's morphological category,
 * refer for the list of morphem for exact category.
 
 

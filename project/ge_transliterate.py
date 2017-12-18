@@ -26,6 +26,28 @@ for line in symbols:
 		table [ge] = ipa
 
 #---------------------------------
+# open txt file with our endings (de_end.txt)
+a = open (sys.argv[2])
+endings = a.readlines()
+a.close()
+one = []
+two = []
+three = []
+
+for line in endings:
+	line = line.replace('\n','')
+	e = line.split('\t')
+	if e[0] == '#':
+		continue
+	ending = e[0]
+	if len(ending) == 1:
+		one.append(ending)
+	if len(ending) == 2:
+		two.append(ending)
+	if len(ending) == 3:
+		three.append (ending)
+	
+#---------------------------------
 
 ge_text = sys.stdin.read() #string
 ge_text = ge_text.replace ('. ', '.\n') # string with '\n'
@@ -42,8 +64,20 @@ for line in ge_text:
 		words = line.split() # split every line into list of words 
 
 		for w in words: # for every element of our new list
+			### NEW PART
+			st_w = ''
+			if w[-3:] in three:
+				st_w = st_w + w[:-3] + '-' + w[-3:]
+			if w[-2:] in two:
+				st_w = st_w + w[:-2] + '-' + w[-2:]
+			else:
+				if w[-1] in one:
+					st_w = st_w + w[:-1] + '-' + w[-1]
+				else:
+					st_w = w
+			
 			ipa_w = '' # new line for future transliterated word
-			for smb in w: # for every symbol in the word
+			for smb in st_w: # for every symbol in the word
 				if smb in table: # if symbol is in our table of mapping
 					ipa_smb = table[smb] # set new symbol
 				else:

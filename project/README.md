@@ -1,6 +1,6 @@
 ## From Georgian script to IPA
 
-### INTRODUCTION
+#### INTRO
 
 IPA is an abbreviation for [The International Phonetic Alphabet](https://www.internationalphoneticassociation.org/). It is an alphabetic system of phonetic notation aimed to illustrate a standardized representation of the sounds of spoken language.
 
@@ -8,7 +8,7 @@ Georgian is one of Kartvelian languages, a language family indigenous to the Cau
 
 <img src="https://4.downloader.disk.yandex.ru/disk/6467c97a6b749664959339b0a0a6632d48065f0204a07d7637539f3903943ac3/5a374936/U6tpeiIpRI7Zg034NSXqvuNGfnz4gBt5eCAKJfI7Q-qtSIVeZQS3Pv1UQGnKgfrV4Pc0LLXKKwIGU3AtkNQJAQ%3D%3D?uid=0&filename=2017-12-18_03-49-27.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&fsize=42097&hid=7b61ce6b64dc38e9d1d3c5bf0f6d9ad3&media_type=image&tknv=v2&etag=a150d6374993e593b80713768f840357" width="700">
 
-### PROJECT DESCRIPTION
+#### PROJECT DESCRIPTION
 The project consists of a transliteration table and a script.
 
 ***First step*** is a table of Georgian → IPA symbols mapping. The file consists of two columns separated by a tab `\t` character.
@@ -72,7 +72,7 @@ The output of the script looks like:
 ADD EXAMPLE HERE
 ```
 
-### EVALUATION
+#### EVALUATION
 problems...
 problems...
 problems...

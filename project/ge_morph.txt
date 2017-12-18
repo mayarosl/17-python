@@ -1,0 +1,16 @@
+# nouns decl.
+ი	NOM
+მა	ERG
+ს	DAT
+ის	GEN
+ით	INST
+ად	ADV
+ო	VOC
+#verbs
+ებ	PRS
+ებს	PRS
+ებთ	PRS
+
+
+
+

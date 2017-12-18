@@ -73,20 +73,18 @@ To test the script, I have prepared file `ge_wiki.txt`. It is used as an input l
 $ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt
 ```
 The output of the script looks like:
-```
+```html
 Original sentence:  ჩემი გამოცდილების მიხედვით, ებრაელები არ არიან ხალხთა სხვა ჯგუფებზე უკეთესნი, თუმცა, ყველაზე ცუდი სიმსივნური ელემენტებისგან მათ ხელისუფლების არყოლა იცავს.
-IPA transliteration: tʃʰɛmi gɑmɔtsʰdilɛbis miχɛdvitʰ, ɛbrɑɛlɛbi ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰudi simsivnuri ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛbis ɑrqʼɔlɑ itsʰɑvs.
+IPA: tʃʰɛmi gɑmɔtsʰdilɛbis miχɛdvitʰ, ɛbrɑɛlɛbi ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰudi simsivnuri ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛbis ɑrqʼɔlɑ itsʰɑvs.
 ```
 
 #### EVALUATION
 
-How good the convertor is?
+:+1: The script works properly. It can be adjusted to output a plain text (without original sentences) or a list of words in IPA.
 
-:+1: it transliterares!
+:-1: Due to the flexible stress in Georgian, forms in IPA are not marked with stress.
 
-:-1: it does not understand loanwords
-
-:-1: Due to lack of source, it's not reflecting how sounds effect each other, no positional variations.
+:-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. At least latin and cyrillic symbols should be added to the table with mappings.
 
 
 ***** 

@@ -57,11 +57,27 @@ for line in symbols:
 	if ge not in table:
 		table [ge] = ipa
 ```
-Next, Python makes lists of 
+Next, Python makes lists of
+```ppppppppppppppython
+a = open (sys.argv[2])
+endings = a.readlines()
+a.close()
+one = []
+two = []
+three = []
 
-```python
-
-ADDCODEHERE
+for line in endings:
+	line = line.replace('\n','')
+	e = line.split('\t')
+	if e[0] == '#':
+		continue
+	ending = e[0]
+	if len(ending) == 1:
+		one.append(ending)
+	if len(ending) == 2:
+		two.append(ending)
+	if len(ending) == 3:
+		three.append (ending)
 ```
 
 The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and in every word checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
@@ -94,7 +110,7 @@ $ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt ge_morph.txt
 The output of the script looks like:
 ```html
 Original sentence:  ჩემი გამოცდილების მიხედვით, ებრაელები არ არიან ხალხთა სხვა ჯგუფებზე უკეთესნი, თუმცა, ყველაზე ცუდი სიმსივნური ელემენტებისგან მათ ხელისუფლების არყოლა იცავს.
-IPA: tʃʰɛmi gɑmɔtsʰdilɛbis miχɛdvitʰ, ɛbrɑɛlɛbi ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰudi simsivnuri ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛbis ɑrqʼɔlɑ itsʰɑvs.
+IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰud-i simsivnur-i ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛb-is ɑrqʼɔlɑ itsʰɑvs. vvvvvvv
 ```
 
 #### EVALUATION

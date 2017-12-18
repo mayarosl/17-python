@@ -57,16 +57,16 @@ for line in symbols:
 	if ge not in table:
 		table [ge] = ipa
 ```
-Next, Python makes lists of
-```ppppppppppppppython
+Next, Python makes lists according to the numbet of symbols in morphems
+```python
 a = open (sys.argv[2])
-endings = a.readlines()
+ms = a.readlines()
 a.close()
 one = []
 two = []
 three = []
 
-for line in endings:
+for line in ms:
 	line = line.replace('\n','')
 	e = line.split('\t')
 	if e[0] == '#':
@@ -80,7 +80,9 @@ for line in endings:
 		three.append (ending)
 ```
 
-The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and in every word checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
+The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and checks if the final part of a word is in morphem lists. It the requested slice is in our lists, Python separates it from (let's call it) 'stem' with `python '-'`.
+
+Then, in every word Python checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
 ```python
 ge_text = sys.stdin.read()
 ge_text = ge_text.replace ('. ', '.\n')
@@ -110,7 +112,7 @@ $ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt ge_morph.txt
 The output of the script looks like:
 ```html
 Original sentence:  ჩემი გამოცდილების მიხედვით, ებრაელები არ არიან ხალხთა სხვა ჯგუფებზე უკეთესნი, თუმცა, ყველაზე ცუდი სიმსივნური ელემენტებისგან მათ ხელისუფლების არყოლა იცავს.
-IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰud-i simsivnur-i ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛb-is ɑrqʼɔlɑ itsʰɑvs. vvvvvvv
+IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰud-i simsivnur-i ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛb-is ɑrqʼɔlɑ itsʰɑvs.
 ```
 
 #### EVALUATION
@@ -121,19 +123,14 @@ IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i
 
 :-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. At least latin and cyrillic symbols should be added to the table with mappings.
 
-
-***** 
-
-Shosted, R., & Chikovani, V. (2006). Standard Georgian. Journal of the International Phonetic Association, 36(2), 255-264. doi:10.1017/S0025100306002659, [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7DCF9606BA856FCA5CC25918ADB37EF/S0025100306002659a.pdf/standard_georgian.pdf)
-
-
-
-Добавила:
-прога отделяет падежные окончания существительных
-проблемы:
-в тексте не видно, что есть сущ
+:-1: в тексте не видно, что есть сущ
 я не знаю грамматику так хорошо, может есть совпадения с другими чр
 лучше будет работать, если применить в токенизированному тексту и задать параметр НАУН
 то есть как я могу улучшить проектЖ
 аннотировать кусок текста
 применять разные таблицы окончаний к разным частям речи
+
+
+***** 
+
+Shosted, R., & Chikovani, V. (2006). Standard Georgian. Journal of the International Phonetic Association, 36(2), 255-264. doi:10.1017/S0025100306002659, [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7DCF9606BA856FCA5CC25918ADB37EF/S0025100306002659a.pdf/standard_georgian.pdf)

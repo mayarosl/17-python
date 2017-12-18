@@ -69,7 +69,8 @@ $ cat ge_wiki.txt | python3 ge_transliterate.py ge_table.txt
 ```
 The output of the script looks like:
 ```
-ADD EXAMPLE HERE
+Original sentence:  ჩემი გამოცდილების მიხედვით, ებრაელები არ არიან ხალხთა სხვა ჯგუფებზე უკეთესნი, თუმცა, ყველაზე ცუდი სიმსივნური ელემენტებისგან მათ ხელისუფლების არყოლა იცავს.
+IPA transliteration: tʃʰɛmi gɑmɔtsʰdilɛbis miχɛdvitʰ, ɛbrɑɛlɛbi ɑr ɑriɑn χɑlχtʰɑ sχvɑ dʒgupʰɛbzɛ ukʼɛtʰɛsni, tʰumtsʰɑ, qʼvɛlɑzɛ tsʰudi simsivnuri ɛlɛmɛntʼɛbisgɑn mɑtʰ χɛlisupʰlɛbis ɑrqʼɔlɑ itsʰɑvs.
 ```
 
 #### EVALUATION

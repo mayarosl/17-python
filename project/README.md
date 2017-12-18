@@ -57,7 +57,7 @@ for line in symbols:
 	if ge not in table:
 		table [ge] = ipa
 ```
-Next, Python makes lists according to the numbet of symbols in morphems
+Next, Python makes lists according to the number of symbols in morphems (from `ge_morph.txt`):
 ```python
 a = open (sys.argv[2])
 ms = a.readlines()
@@ -80,7 +80,7 @@ for line in ms:
 		three.append (ending)
 ```
 
-The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and checks if the final part of a word is in morphem lists. It the requested slice is in our lists, Python separates it from (let's call it) 'stem' with `python '-'`.
+The input file with text in Georgian is read line by line. Python outputs original sentence, then splits it into words, and checks if the final part of a word is in morphem lists. It the requested slice is in our lists, Python separates it from (let's call it) 'stem' with `'-'` symbol.
 
 Then, in every word Python checks if the symbol maps the key from dictionary with transliteration table. If so, it forms the new word, adds it to a new line, and prints it to output.
 ```python
@@ -123,12 +123,11 @@ IPA transliteration: tʃʰɛm-i gɑmɔtsʰdilɛb-is miχɛdvitʰ, ɛbrɑɛlɛb-i
 
 :-1: The script works only with Georgian alphabet, any symbol from another system (if it is in an input text) will not be transfered into IPA. At least latin and cyrillic symbols should be added to the table with mappings.
 
-:-1: в тексте не видно, что есть сущ
-я не знаю грамматику так хорошо, может есть совпадения с другими чр
-лучше будет работать, если применить в токенизированному тексту и задать параметр НАУН
-то есть как я могу улучшить проектЖ
-аннотировать кусок текста
-применять разные таблицы окончаний к разным частям речи
+:-1: в тексте не видно, что есть сущ, я не знаю грамматику так хорошо, может есть совпадения с другими чр
+
+лучше будет работать, если применить в токенизированному тексту и задать параметр NOUN
+
+то есть как я могу улучшить проект: аннотировать кусок текста, применять разные таблицы окончаний к разным частям речи
 
 
 ***** 

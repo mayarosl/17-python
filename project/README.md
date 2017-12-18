@@ -11,10 +11,10 @@ Georgian is one of Kartvelian languages, a language family indigenous to the Cau
 Georgian is well known for its complex morphology, but not much is known about its intonation. The language is claimed to have stress, although its exact realization is debated in the literature. Additionaly, it is not fixed. Thus, it is not seen as possible to mark stress in the IPA transcription.
 
 #### PURPOSE
-The program is aimed to take a text in Georgian language from input and transfer it into IPA symbols. We are going to transcribe phonemically. The output will represent not actual sounds, but abstract mental constructs, i.e. the categories of sound that speakers understand to be ‘sounds of their language’. 
+The program is aimed to take a text in Georgian language from input, split words into morphems and transfer it into IPA symbols. We are going to transcribe phonemically. The output will represent not actual sounds, but abstract mental constructs, i.e. the categories of sound that speakers understand to be ‘sounds of their language’. 
 
 #### PROJECT DESCRIPTION
-The project consists of a transliteration table and a script.
+The project consists of a transliteration table, a table of morphems and a script itself.
 
 ***First step*** is a table of Georgian → IPA symbols mapping. The file consists of two columns separated by a tab `\t` character.
 The table looks simplistic due to several points. First, modern Georgian alphabet is caseless. Second, there is a one-to-one correspondence between the alphabetic symbols and phonemic sounds. 
@@ -27,8 +27,16 @@ The table looks like:
 	... 
 ```
 ... and it is stored in `ge_table.txt`.
+***Second step*** is a table of Georgian morphems. Like in the first step, it is a text file with two columns separated by a tab `\t`. Only first column is needed for script, second one is just for comments:
+```python
+hg
 
-***Second step*** is a code itself. Python reads the `ge_table.txt` and form the dictionary of Georgian → IPA symbols mapping.
+```
+The table is stored in 
+PROMLEM: I don't know GE and don't have time to check all of them.
+
+
+***Third step*** is a code itself. Python reads the `ge_table.txt` and form the dictionary of Georgian → IPA symbols mapping.
 ```python
 import sys
 table = {}
@@ -90,3 +98,15 @@ IPA: tʃʰɛmi gɑmɔtsʰdilɛbis miχɛdvitʰ, ɛbrɑɛlɛbi ɑr ɑriɑn χɑl�
 ***** 
 
 Shosted, R., & Chikovani, V. (2006). Standard Georgian. Journal of the International Phonetic Association, 36(2), 255-264. doi:10.1017/S0025100306002659, [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A7DCF9606BA856FCA5CC25918ADB37EF/S0025100306002659a.pdf/standard_georgian.pdf)
+
+
+
+Добавила:
+прога отделяет падежные окончания существительных
+проблемы:
+в тексте не видно, что есть сущ
+я не знаю грамматику так хорошо, может есть совпадения с другими чр
+лучше будет работать, если применить в токенизированному тексту и задать параметр НАУН
+то есть как я могу улучшить проектЖ
+аннотировать кусок текста
+применять разные таблицы окончаний к разным частям речи
